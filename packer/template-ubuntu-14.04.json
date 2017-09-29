@@ -151,7 +151,13 @@
             [ "modifyvm", "{{.Name}}", "--nic2", "intnet" ]
         ]
     },
-
+    {
+        "remote_type": "esx5",
+        "remote_host": "10.240.16.206",
+        "remote_datastore": "Isilon-Cluster-NFS",
+        "remote_username": "concourse%40vsphere.local",
+        "remote_password": "concourseZilog256%21"
+    },
 
     {
         "type": "vmware-vmx",
